@@ -264,8 +264,8 @@
         <?php
 
         $servername = "localhost";
-        $username = "root2";
-        $password = "asdf1212";
+        $username = "root";
+        $password = "xxxxxxxx";
         $db_name = "study_material";
 
         // Create connection
