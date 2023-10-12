@@ -174,7 +174,23 @@
             margin-top: 40vh;
         }
 
-        
+        btn-bw{
+            color: #fff;
+            justify-content: right;
+            align-items: right;
+            background: #000;
+        }
+
+        .byn-1{
+            border-radius: 50rem;
+            padding: 0.5em 1em;
+        }
+
+        .light-mode{
+            background-color: #fff;
+            color: #000;
+        }
+
 
     </style>
     <script>
