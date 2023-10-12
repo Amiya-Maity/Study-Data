@@ -168,16 +168,50 @@
             -webkit-box-orient: vertical;
         }
 
-        th {}
+        
 
         .container {
             margin-top: 40vh;
         }
+
+        btn-bw{
+            color: #fff;
+            justify-content: right;
+            align-items: right;
+            background: #000;
+        }
+
+        .byn-1{
+            border-radius: 50rem;
+            padding: 0.5em 1em;
+        }
+
+        .light-mode{
+            background-color: #fff;
+            color: #000;
+        }
+
+
     </style>
+    <script>
+        function toggleMode() {
+            var element = document.body;
+            var btn = document.getElementById("bt1");
+            element.classList.toggle("light-mode");
+            btn.classList.toggle("btn-bw");
+            if(btn.innerHTML == "Dark"){
+                btn.innerHTML ="Light "
+            }else{
+                btn.innerHTML ="Dark"
+            }
+            
+        }
+    </script>
 </head>
 
 <body>
     <div class="container">
+    <button onclick="toggleMode()" class="btn-1" id="bt1" type="submit">Light</button>
         <div class="row">
             <div class="col right">
                 <center>
